@@ -1,0 +1,11 @@
+{
+  "namespace": "VRisingAddicts",
+  "name": "NoGameCursor",
+  "description": "Switch the game cursor back to your system cursor in the game.",
+  "version_number": "1.0.0",
+  "dependencies": [
+    "BepInEx-BepInExPack_V_Rising-1.668.5"
+  ],
+  "website_url": "https://github.com/DerNap/VRisingAddicts",
+  "FullName": "VRisingAddicts-NoGameCursor"
+}

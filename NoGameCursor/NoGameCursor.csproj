@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+	<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	<LangVersion>latest</LangVersion>
+	<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+
+    <AssemblyName>NoGameCursor</AssemblyName>
+	<RootNamespace>NoGameCursor</RootNamespace>
+	<Description>A mod that gets your system cursor in the game.</Description>
+	<Version>1.0.0-gloomrot</Version> 
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BepInEx.Unity.IL2CPP" Version="6.0.0-be.668" IncludeAssets="compile" />
+    <PackageReference Include="BepInEx.PluginInfoProps" Version="2.1.0" />
+    <PackageReference Include="System.Text.Json" Version="7.0.3" />
+    <PackageReference Include="VRising.Bloodstone" Version="0.1.4" />
+    <PackageReference Include="VRising.Unhollowed.Client" Version="0.6.5.57575090" />
+    <PackageReference Include="VRising.VampireCommandFramework" Version="0.8.0" />
+  </ItemGroup>
+</Project>
